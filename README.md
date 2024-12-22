@@ -10,7 +10,7 @@ Simple implementation of some Positional Encoding methods in PyTorch.
 ```bash
 git clone https://github.com/donglinkang2021/simplepe.git
 cd simplepe
-pip install -e .
+pip install .
 ```
 
 ## Usage
