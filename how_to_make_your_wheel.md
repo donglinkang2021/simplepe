@@ -111,3 +111,21 @@ You'll need to provide your PyPI credentials.
 ---
 
 This process will create a `.whl` file that can be distributed and installed using `pip`. You can now share your Python package with others!
+
+### Developer Notes
+
+For later development, you can use the following commands to update the package:
+
+- To rebuild the wheel:
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+- To upload the updated wheel to PyPI:
+
+```bash
+twine upload dist/*
+```
+
+Happy packaging!
